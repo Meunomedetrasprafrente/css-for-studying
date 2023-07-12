@@ -1,0 +1,21 @@
+p:last-child{
+    color: rgb(99, 13, 179);
+    font-size: 30px;
+}
+
+p:not(.padrao){
+    color: yellow;
+}
+
+p:nth-child(odd){
+    color: red;
+}
+
+li:nth-child(n+2):nth-child(-n+3){
+    color: darkorange;
+    font-size: 24px;
+}
+
+p:only-child{
+    color: deepskyblue;
+}

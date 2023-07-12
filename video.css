@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.video{
+    padding: 10px 15px;
+    width: 50%;
+    height: 50%;
+}
